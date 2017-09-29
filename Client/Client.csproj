@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Tianzz.Utility" Version="1.0.0" />
+    <ProjectReference Include="..\Tianzz.Utility\Tianzz.Utility.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,5 +1,4 @@
 ﻿using System;
-using Utility.Extension;
 
 namespace Client
 {
@@ -7,8 +6,15 @@ namespace Client
     {
         static void Main(string[] args)
         {
-            string str = string.Empty;
-            str.IsNullOrWhiteSpace();
+            DateTime dt = DateTime.Now;
+            long rs = dt.ToInt64();
+
+         
+            Console.WriteLine(value: $"{dt.ToString("yyyy-MM-dd HH:mm:ss")}--{rs}");
+
+            Console.WriteLine(value: $"{rs}--{rs.ToDateTime()}");
+
+            Console.ReadKey();
         }
     }
 }
